@@ -40,7 +40,7 @@
 		"EMAIL_PROVIDER": "resend",
 		// Dashboard form requires a non-empty value. Keep example.com for
 		// Resend; replace with your domain when EMAIL_PROVIDER=cloudflare.
-		"CLOUDFLARE_MAIL_DOMAINS": "example.com"
+		"CLOUDFLARE_MAIL_DOMAINS": "hannan.click"
 	},
 
 	"send_email": [
@@ -62,7 +62,7 @@
 			"binding": "DB",
 			"database_name": "quickmail",
 			// `bun run setup` fills this in, or: wrangler d1 create <name>
-			"database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+			"database_id": "5d0111a9-c835-44ca-8f8b-32455856cff4",
 			"migrations_dir": "migrations"
 		}
 	],
